@@ -1,46 +1,90 @@
-# Getting Started with Create React App
+### Challenge 1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```
+Create a component with 2 input fields accepting number and 2 buttons , "ADD" and "SUBTRACT"
+Add a span below the inputs to display the result.
+Add a reducer function to do the calculation on each button click.
+*** useReducer()
+```
 
-## Available Scripts
+### Challenge 2
 
-In the project directory, you can run:
+```
+Create 2 react components called Home and Login
+Add "Login" button in the Home page and "Home" button in the Login page. Implement react router to show the Login page in the root path and when click on the Home button should navigate to the Home component. Similarly clicking on the Login button takes to the Login component.
 
-### `npm start`
+*** add the necessary packages
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Challenge 3
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+Given a mock record of student data with name, id and scores for different subjects. Create a component which uses this mock data and implement a rank function to rank the students based on the total mark scored
 
-### `npm test`
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<table>
+  <caption>
+    Students Result
+  </caption>
+  <thead>
+    <tr>
+      <th scope="col">Student</th>
+      <th scope="col">Rank</th>
+      <th scope="col">Math</th>
+      <th scope="col">Computer</th>
+      <th scope="col">Physics</th>
+      <th scope="col">Chemistry</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Adrian</th>
+      <td>1</td>
+      <td>97</td>
+      <td>69</td>
+      <td>99</td>
+      <td>94</td>
+    </tr>
+    <tr>
+       <th scope="row">Cristobal</th>
+      <td>1</td>
+      <td>96</td>
+      <td>81</td>
+      <td>92</td>
+      <td>72</td>
+    </tr>
+  </tbody>
+</table>
 
-### `npm run build`
+### Challenge 4
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+Create a sample component and show a loading text for 2 seconds and then the content in the component. Implement the loading state with react redux. Create a slice to manage the loading state.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*** add the necessary packages
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Challenge 5
 
-### `npm run eject`
+```
+Create a sample component and show a loading text for 2 seconds and then the content in the component. Implement the loading state with react createContext.
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Challenge 6
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+Implement a TODO list. Add an input field and a button.
+On adding each item, that should be added in the list which should be rendered below the input field.
+Implement this feature by using custom hooks. Change the backgroud color of the list container to red when there are more that 5 items in the TODO list
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Challenge 7
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+Build a traffic light where the lights switch from green to yellow to red after predetermined intervals and loop indefinitely. Each light should be lit for the following durations:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+ Red light: 3000ms
+ Yellow light: 500ms
+ Green light: 3000ms
+```
